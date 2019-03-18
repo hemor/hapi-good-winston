@@ -1,5 +1,5 @@
 {
-  "name": "hapi-good-winston",
+  "name": "@hemor/hapi-good-winston",
   "version": "2.1.0",
   "description": "A hapi good reporter to log events with winston",
   "main": "./dist/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexandrebodin/hapi-good-winston.git"
+    "url": "git+https://github.com/alexandrebodin/hapi-good-winston.git"
   },
   "keywords": [
     "hapi",
@@ -25,11 +25,7 @@
   ],
   "author": "Alexandre BODIN <bodin.alex@gmail.com> (https://github.com/alexandrebodin)",
   "maintainers": [
-    {
-      "name": "alexandrebodin",
-      "email": "bodin.alex@gmail.com",
-      "url": "https://github.com/alexandrebodin"
-    }
+    "alexandrebodin <bodin.alex@gmail.com> (https://github.com/alexandrebodin)"
   ],
   "license": "MIT",
   "bugs": {
@@ -54,5 +50,9 @@
     "babel-register": "^6.9.0",
     "tap-dot": "^1.0.5",
     "tape": "^4.5.1"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
